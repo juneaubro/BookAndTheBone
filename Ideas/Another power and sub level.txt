@@ -1,0 +1,3 @@
+New power: Slow down time, or maybe just add this to the rewind bone.
+
+Also maybe remove rewind blocks and just allow the player to use it whenever.
