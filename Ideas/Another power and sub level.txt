@@ -1,3 +1,5 @@
 New power: Slow down time, or maybe just add this to the rewind bone.
 
+Sub level: Maybe a sawblade that moves way to fast for the player at real-time, so they have to slow-down time to get past the sawblade.
+
 Also maybe remove rewind blocks and just allow the player to use it whenever.
