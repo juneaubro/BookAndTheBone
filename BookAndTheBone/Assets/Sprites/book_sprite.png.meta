@@ -1,7 +1,70 @@
 fileFormatVersion: 2
 guid: 94d1da29d9f771b449260690603da254
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8865556478571514121
+    second: book_sprite_0
+  - first:
+      213: -1078223338811766115
+    second: book_sprite_1
+  - first:
+      213: -126667317605442491
+    second: book_sprite_2
+  - first:
+      213: -7283891639193190396
+    second: book_sprite_3
+  - first:
+      213: 8116543301331909582
+    second: book_sprite_4
+  - first:
+      213: 7352733132446304772
+    second: book_sprite_5
+  - first:
+      213: 5872070401872103242
+    second: book_sprite_6
+  - first:
+      213: 4027737306911483971
+    second: book_sprite_7
+  - first:
+      213: 8620802024713752720
+    second: book_sprite_8
+  - first:
+      213: -7388080597871778828
+    second: book_sprite_9
+  - first:
+      213: -619932637726849656
+    second: book_sprite_10
+  - first:
+      213: 5630127967391212051
+    second: book_sprite_11
+  - first:
+      213: 2509954259378028307
+    second: book_sprite_12
+  - first:
+      213: 5287956148505456227
+    second: book_sprite_13
+  - first:
+      213: 1376596578495494611
+    second: book_sprite_14
+  - first:
+      213: 6489061339600568635
+    second: book_sprite_15
+  - first:
+      213: 3878669907402050384
+    second: book_sprite_16
+  - first:
+      213: 5204215017492514919
+    second: book_sprite_17
+  - first:
+      213: 8727844704715143240
+    second: book_sprite_18
+  - first:
+      213: 5601313097576713080
+    second: book_sprite_19
+  - first:
+      213: 106044878336017746
+    second: book_sprite_20
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +103,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +133,462 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: book_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1371
+        width: 171
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea466aceeb01d44d9bf7d2157281f00
+      internalID: -8865556478571514121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1297
+        width: 178
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b156755663c2af449f7ceb476041370
+      internalID: -1078223338811766115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1342
+        width: 335
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35da4378915ebab438aa839a3d7a8ad3
+      internalID: -126667317605442491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1514
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c22fde6af610c4b9e05aed689c62a3
+      internalID: -7283891639193190396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1343
+        width: 334
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab48fba9649b0d347b0eb348aaca050a
+      internalID: 8116543301331909582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1032
+        width: 335
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6eb2a11b198396428135f52d18896ba
+      internalID: 7352733132446304772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1037
+        width: 335
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e56a4dc94ee6524a8dbb87acd19b99b
+      internalID: 5872070401872103242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1040
+        width: 335
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c1b72f7d8f2e448a45a06d26aa8701
+      internalID: 4027737306911483971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 775
+        width: 334
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1588a009cbd643d488ea1d6d64b1010b
+      internalID: 8620802024713752720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 777
+        width: 334
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1957484b9ec49184fbe34800c53527e9
+      internalID: -7388080597871778828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 775
+        width: 334
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683078eea95d3c1449b28cb01a6b6ef2
+      internalID: -619932637726849656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 526
+        width: 335
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f40d66455b509b4ea6ee077c9e7b64e
+      internalID: 5630127967391212051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 517
+        width: 335
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409b6b34194cc1740aed18c35dd7a313
+      internalID: 2509954259378028307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 518
+        width: 335
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111654de149751e4d8535bc5c4ef72ed
+      internalID: 5287956148505456227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 314
+        width: 335
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c6d954dcdebd5428c912d8a544a85d
+      internalID: 1376596578495494611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 315
+        width: 335
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61aeb740391f4b44ca0752202ecdb236
+      internalID: 6489061339600568635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 289
+        width: 346
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44868b72ee1f5af45bf830e3c0893419
+      internalID: 3878669907402050384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 30
+        width: 174
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fedef4faa08dd4a9868b1a88475885
+      internalID: 5204215017492514919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 33
+        width: 177
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda57bfb1f2894143a79d8802075af86
+      internalID: 8727844704715143240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 44
+        width: 169
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d758d484c630e4b89b7b73bdf0a3b7
+      internalID: 5601313097576713080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: book_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 48
+        width: 169
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ca0bc0ae14fdd46bd48a113366ff48
+      internalID: 106044878336017746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

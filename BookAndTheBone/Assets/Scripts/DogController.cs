@@ -7,6 +7,7 @@ public class DogController : MonoBehaviour
     public float runSpeed;
     public int jumpPower;
     public float jumpCooldown;
+    public GameObject Book_Key;
 
     private float dirX;
     private Animator anim;
