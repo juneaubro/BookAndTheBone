@@ -67,7 +67,7 @@
     <Compile Include="Assets\Scripts\DogController.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\ItemPickup.cs" />
-    <Compile Include="Assets\Scripts\NotABugItsAFeature.cs" />
+    <Compile Include="Assets\Scripts\PortalSpawn.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/juneau/Documents/GitHub/BookAndTheBone/BookAndTheBone/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

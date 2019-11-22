@@ -6,6 +6,8 @@ public class ItemPickup : MonoBehaviour
 {
     public GameObject Item;
     public GameObject Player;
+    public GameObject gravityTemp;
+    public GameObject zeroGravityTemp;
     public Transform dog;
 
     private bool pickUp;
@@ -21,8 +23,10 @@ public class ItemPickup : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) && pickUp == true)
         {
-                Item.transform.position = dog.transform.position;
-                Item.transform.parent = Player.transform;
+            Item.transform.position = dog.transform.position;
+            Item.transform.parent = Player.transform;
+            Item.GetComponent<Rigidbody2D>().gravityScale = gravityTemp.GetComponent<Rigidbody2D>().gravityScale;
+
         } else
         {
             pickUp = false;
@@ -37,17 +41,13 @@ public class ItemPickup : MonoBehaviour
             pickUp = true;
         }
     }
-}
-/*
- * void OnTriggerEnter2D(Collider2D collision)
+
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        if (pickUp == true)
+        if (col.gameObject.tag == "Ground")
         {
-            if (collision.gameObject.name == "Dog")
-            {
-                Item.transform.position = dog.transform.position;
-                Item.transform.parent = Player.transform;
-            }
+            Item.GetComponent<Rigidbody2D>().gravityScale = zeroGravityTemp.GetComponent<Rigidbody2D>().gravityScale;
+            Item.GetComponent<Rigidbody2D>().velocity = zeroGravityTemp.GetComponent<Rigidbody2D>().velocity;
         }
     }
-*/
+}

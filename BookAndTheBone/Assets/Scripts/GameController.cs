@@ -6,6 +6,7 @@ public class GameController : MonoBehaviour
 {
     public GameObject canvas;
 
+    private bool helpOn = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,9 +16,17 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.B))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            canvas.SetActive(false);
+            Application.Quit();
+        }
+
+        //  Toggle help menu
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            helpOn = !helpOn;
+            canvas.SetActive(helpOn);
+            
         }
     }
 }

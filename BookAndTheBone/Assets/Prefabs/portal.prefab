@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8237000320366505938}
   - component: {fileID: 8237000320366505939}
   - component: {fileID: 8237000320366505940}
+  - component: {fileID: 2198635367790670747}
   m_Layer: 0
   m_Name: portal
   m_TagString: Untagged
@@ -100,3 +101,43 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &2198635367790670747
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8237000320366505941}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.92, y: 1.248}
+    newSize: {x: 1.92, y: 1.248}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.72400004, y: 0.572}
+      - {x: 0.544, y: 0.624}
+      - {x: -0.492, y: 0.624}
+      - {x: -0.67200005, y: 0.536}
+      - {x: -0.68, y: 0.528}
+      - {x: -0.81600004, y: 0.448}
+      - {x: -0.96000004, y: 0.30400002}
+      - {x: -0.96000004, y: -0.30800003}
+      - {x: -0.81600004, y: -0.46800002}
+      - {x: -0.688, y: -0.536}
+      - {x: -0.492, y: -0.624}
+      - {x: 0.49600002, y: -0.624}
+      - {x: 0.72800004, y: -0.54800004}
+      - {x: 0.96000004, y: -0.316}
+      - {x: 0.96000004, y: 0.32000002}

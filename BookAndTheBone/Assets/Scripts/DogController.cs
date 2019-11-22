@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DogController : MonoBehaviour
 {
     public float runSpeed;
     public int jumpPower;
     public float jumpCooldown;
-    public GameObject Book_Key;
+    public GameObject book;
 
     private float dirX;
     private Animator anim;
@@ -54,25 +55,25 @@ public class DogController : MonoBehaviour
             anim.SetTrigger("hit");
         }
 
-        if(Input.GetKey(KeyCode.S) && !anim.GetCurrentAnimatorStateInfo(0).IsName("bark"))
+        if(Input.GetKey(KeyCode.S) && !anim.GetCurrentAnimatorStateInfo(0).IsName("bark") && !anim.GetCurrentAnimatorStateInfo(0).IsName("running"))
         {
             anim.SetBool("isSitting", true);
-        } else if(Input.GetKeyUp(KeyCode.S))
+        } else
         {
             anim.SetBool("isSitting", false);
         }
 
-        if (Input.GetKey(KeyCode.W) && !anim.GetCurrentAnimatorStateInfo(0).IsName("bark"))
+        if (Input.GetKeyDown(KeyCode.W) && !anim.GetCurrentAnimatorStateInfo(0).IsName("bark"))
         {
             anim.SetBool("isJumping", true);
         }
-        else if (Input.GetKeyUp(KeyCode.W))
+        else
         {
             anim.SetBool("isJumping", false);
         }
     }
 
-    private void Flip(float dirX)   // To make the dog flip around to face the direction he is going.
+     void Flip(float dirX)   // To make the dog flip around to face the direction he is going.
     {
         if (dirX > 0 && !facingRight || dirX < 0 && facingRight)
         {
@@ -83,6 +84,18 @@ public class DogController : MonoBehaviour
             theScale.x *= -1;
 
             transform.localScale = theScale;
+        }
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.name == "book")
+        {
+            Destroy(book);
+        }
+
+        if (collision.gameObject.name == "portal2")
+        {
+            SceneManager.LoadScene("Floor2");
         }
     }
 }

@@ -6,6 +6,7 @@ public class ChestOpen : MonoBehaviour
 {
     public GameObject book;
     public GameObject portal;
+    public GameObject key;
     
     // Start is called before the first frame update
     void Start()
@@ -16,7 +17,7 @@ public class ChestOpen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     
+    
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -24,7 +25,7 @@ public class ChestOpen : MonoBehaviour
         if (collision.gameObject.tag == "Item")
         {
             book.SetActive(true);
-            portal.SetActive(true);
+            Destroy(key);
         }
     }
 }
