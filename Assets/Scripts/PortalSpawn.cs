@@ -26,7 +26,7 @@ public class PortalSpawn : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Dog")
+        if (collision.gameObject.name == "Beams" || collision.gameObject.name == "Dog")
         {
             active = true;
         }

@@ -19,7 +19,6 @@ public class SwitchGravity : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            rb.gravityScale *= -1;
             Rotation();
         }
 
@@ -27,6 +26,14 @@ public class SwitchGravity : MonoBehaviour
 
     void Rotation()
     {
+        rb.gravityScale *= -1;
+
+        Vector3 theScale = transform.localScale;
+
+        theScale.x *= -1;
+
+        transform.localScale = theScale;
+
         if (top == false)
         {
             transform.eulerAngles = new Vector3(0, 0, 180f);
@@ -35,7 +42,7 @@ public class SwitchGravity : MonoBehaviour
         {
             transform.eulerAngles = Vector3.zero;
         }
-       Dog.facingRight = !Dog.facingRight; //* was supposed to have the dog facing the right way when gravity is reversed but i can't get it to work rip
+
         top = !top;
     }
 }

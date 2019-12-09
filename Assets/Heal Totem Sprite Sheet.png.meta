@@ -1,0 +1,631 @@
+fileFormatVersion: 2
+guid: 609c0190b23d27b48a07f6324e8b85b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -851195839235975809
+    second: Heal Totem Sprite Sheet_0
+  - first:
+      213: -6142972679758277152
+    second: Heal Totem Sprite Sheet_1
+  - first:
+      213: 5737911935634877364
+    second: Heal Totem Sprite Sheet_2
+  - first:
+      213: -5481697737932692061
+    second: Heal Totem Sprite Sheet_3
+  - first:
+      213: -2162683529295547635
+    second: Heal Totem Sprite Sheet_4
+  - first:
+      213: -5905371360524152767
+    second: Heal Totem Sprite Sheet_5
+  - first:
+      213: -5781621341478753758
+    second: Heal Totem Sprite Sheet_6
+  - first:
+      213: -7751730153935079146
+    second: Heal Totem Sprite Sheet_7
+  - first:
+      213: -6272001939483734068
+    second: Heal Totem Sprite Sheet_8
+  - first:
+      213: -2884074593545203013
+    second: Heal Totem Sprite Sheet_9
+  - first:
+      213: 4756765669667585606
+    second: Heal Totem Sprite Sheet_10
+  - first:
+      213: -3810498799773785064
+    second: Heal Totem Sprite Sheet_11
+  - first:
+      213: -1290060498527196457
+    second: Heal Totem Sprite Sheet_12
+  - first:
+      213: -6216833462901399636
+    second: Heal Totem Sprite Sheet_13
+  - first:
+      213: -2170425164647598101
+    second: Heal Totem Sprite Sheet_14
+  - first:
+      213: 684152200970077154
+    second: Heal Totem Sprite Sheet_15
+  - first:
+      213: 1273519123814704712
+    second: Heal Totem Sprite Sheet_16
+  - first:
+      213: -7246261232706580285
+    second: Heal Totem Sprite Sheet_17
+  - first:
+      213: -4058350543882667170
+    second: Heal Totem Sprite Sheet_18
+  - first:
+      213: 749444504494887602
+    second: Heal Totem Sprite Sheet_19
+  - first:
+      213: 3496109318526988508
+    second: Heal Totem Sprite Sheet_20
+  - first:
+      213: -3358441333829936922
+    second: Heal Totem Sprite Sheet_21
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 139
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0de7cd5671fd2409dbeb5d05a1abb2
+      internalID: -851195839235975809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 139
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ded85a18b01d146b48fcadceecd95b
+      internalID: -6142972679758277152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 139
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d89a9cef566cb49a7fa2daea5d203a
+      internalID: 5737911935634877364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 139
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320c9e810327c2a49b0ddd02d13b3f05
+      internalID: -5481697737932692061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 139
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1303303ae1f3a884b911ec516cd6d2ea
+      internalID: -2162683529295547635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 139
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad70fa008b71554fb9beed8586a4d65
+      internalID: -5905371360524152767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 99
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab199fd01f0dbb46b5e8fb5777ca9ab
+      internalID: -5781621341478753758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 99
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d89858e051822f42a2866458a7386eb
+      internalID: -7751730153935079146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 99
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bccb972d5f6e5469df7a449c7b2679
+      internalID: -6272001939483734068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 99
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129362fa62d72dc469725ac3d1b02b17
+      internalID: -2884074593545203013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 99
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957c0a72fe8f2a744bfde53fc6073b1d
+      internalID: 4756765669667585606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 51
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07d5846693d484489febd465795005b
+      internalID: -3810498799773785064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 51
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3202ddb44e6b6d54aad05d89ed74d56d
+      internalID: -1290060498527196457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 51
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a464b2d20288043a78a13f9dbe097d
+      internalID: -6216833462901399636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 51
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8dc20a1d9e1db4d920c9dab0d71ef8
+      internalID: -2170425164647598101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 51
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6bd4902a463664599816dc9bbb6743
+      internalID: 684152200970077154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 51
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9505ea1c2f2b83439b182d5d6ff8458
+      internalID: 1273519123814704712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb34a088daa76349946e28af1d75a7f
+      internalID: -7246261232706580285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 11
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc76521728af6ba4b84232d3342e90f0
+      internalID: -4058350543882667170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 11
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7523e7c4bee234340b32699c40d14450
+      internalID: 749444504494887602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 11
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34013b530970fc94ebc1298d8582aae4
+      internalID: 3496109318526988508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal Totem Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 11
+        width: 47
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3497d50e7f851b844a03f89172f855e3
+      internalID: -3358441333829936922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

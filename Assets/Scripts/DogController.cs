@@ -7,10 +7,6 @@ public class DogController : MonoBehaviour
 {
     public float runSpeed;
     public GameObject book;
-    public int dmg;
-    public int maxHealth = 1;
-    public int health { get { return curHealth; } }
-    public int curHealth;
     public bool facingRight;
     public bool reverseGravity;
     public bool inAir;
@@ -20,7 +16,6 @@ public class DogController : MonoBehaviour
     private float counter = 0;
     private float dirX;
     private Animator anim;
-    private Collision2D hit;
     private Rigidbody2D rBody;
 
     // Start is called before the first frame update
@@ -30,7 +25,6 @@ public class DogController : MonoBehaviour
         reverseGravity = false;
         inAir = false;
         anim = GetComponent<Animator>();
-        curHealth = maxHealth;
         rBody = GetComponent<Rigidbody2D>();
     }
 
@@ -91,16 +85,6 @@ public class DogController : MonoBehaviour
         {
             anim.SetBool("isJumping", false);
         }
-
-        if(curHealth <= 0) //restarts scene when player touches spikes
-        {
-            Application.LoadLevel("Floor2");
-
-        }
-
-
-
-
     }
 
     void Flip(float dirX)   // To make the dog flip around to face the direction he is going.
@@ -133,18 +117,28 @@ public class DogController : MonoBehaviour
             SceneManager.LoadScene("Floor3");
         }
 
+        if (collision.gameObject.name == "portal")
+        {
+            SceneManager.LoadScene("Floor4");
+        }
+
         if (collision.gameObject.tag == "Ground")
         {
             inAir = false;
         }
     }
 
-    public void ChangeHealth(int amount) //allows dog health to go down
+    private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.tag == "Spikes2")
+        {
+            SceneManager.LoadScene("Floor2");
+        }
 
-        curHealth = Mathf.Clamp(curHealth + amount, 0, maxHealth);
-
-        Debug.Log(curHealth + "/" + maxHealth);
+        if (collision.gameObject.tag == "Spikes3")
+        {
+            SceneManager.LoadScene("Floor3");
+        }
     }
 }
         

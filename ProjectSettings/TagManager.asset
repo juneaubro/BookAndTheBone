@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Ground
   - Item
+  - Spikes2
+  - Spikes3
+  - IceTrigger
+  - DestoryBoundary
   layers:
   - Default
   - TransparentFX
@@ -40,6 +44,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 303676853
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: foreground
+    uniqueID: 1464983859
     locked: 0
