@@ -24,7 +24,7 @@ public class TimeShifter : MonoBehaviour
     {
         counter += Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.M) && counter > fireRate)
+        if (Input.GetKeyDown(KeyCode.Q) && counter > fireRate)
         {
             // Instantiate the laser
             Instantiate(ice, IceSpawn.position, ice.transform.rotation);

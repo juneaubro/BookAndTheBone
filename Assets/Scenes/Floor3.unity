@@ -629,7 +629,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7.37
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -867,7 +867,7 @@ PrefabInstance:
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.355945
+      value: -0.334055
       objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
@@ -2895,7 +2895,7 @@ MonoBehaviour:
   m_Text: 'Shoot the totems to reverse time
 
 
-    M - To shoot ice'
+    Q - To shoot ice'
 --- !u!222 &1942703493
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3082,7 +3082,7 @@ PrefabInstance:
     - target: {fileID: 8510233836677797423, guid: 20b803e50dcc1604d8b12a62b5dcea2f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.53
+      value: 0.84
       objectReference: {fileID: 0}
     - target: {fileID: 8510233836677797423, guid: 20b803e50dcc1604d8b12a62b5dcea2f,
         type: 3}

@@ -20,10 +20,25 @@ public class Mover : MonoBehaviour
         bridgeScript = GetComponent<BridgeSpawn>();
         portalScript = GetComponent<PortalSpawn>();
 
-        if(Dog.GetComponent<Rigidbody2D>().transform.localScale.x == -1) // shoots right when facing right, and shooting left when facing left.
-        rBody.velocity = Vector2.right * speed;
-        else
-        rBody.velocity = Vector2.left * speed;
+        if ((Dog.GetComponent<Rigidbody2D>().transform.localScale.x == -1) && (Dog.GetComponent<Rigidbody2D>().transform.rotation.z == 0)) // shoots right when facing right, and shooting left when facing left. -1 right 1 left
+        {
+            rBody.velocity = Vector2.right * speed;
+        }
+
+        if ((Dog.GetComponent<Rigidbody2D>().transform.localScale.x == 1) && (Dog.GetComponent<Rigidbody2D>().transform.rotation.z == 0))
+        {
+            rBody.velocity = Vector2.left * speed;
+        }
+
+        if ((Dog.GetComponent<Rigidbody2D>().transform.localScale.x == -1) && Dog.GetComponent<Rigidbody2D>().transform.rotation.z != 0)
+        {
+            rBody.velocity = Vector2.left * speed;
+        }
+
+        if ((Dog.GetComponent<Rigidbody2D>().transform.localScale.x == 1) && Dog.GetComponent<Rigidbody2D>().transform.rotation.z != 0)
+        {
+            rBody.velocity = Vector2.right * speed;
+        }
     }
 
     private void FixedUpdate()
