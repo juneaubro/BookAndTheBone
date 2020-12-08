@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -233,28 +234,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: m_Offset.y
-      value: 0.011818409
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Radius
-      value: 0.97772765
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Offset.x
-      value: 0.0059092045
-      objectReference: {fileID: 0}
-    - target: {fileID: 8237000320366505941, guid: 07f17ba34993bab4ba094210fcde10f8,
-        type: 3}
-      propertyPath: m_Name
-      value: portal2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8237000320366505941, guid: 07f17ba34993bab4ba094210fcde10f8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8237000320366505938, guid: 07f17ba34993bab4ba094210fcde10f8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -308,6 +287,16 @@ PrefabInstance:
     - target: {fileID: 8237000320366505938, guid: 07f17ba34993bab4ba094210fcde10f8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237000320366505941, guid: 07f17ba34993bab4ba094210fcde10f8,
+        type: 3}
+      propertyPath: m_Name
+      value: portal3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237000320366505941, guid: 07f17ba34993bab4ba094210fcde10f8,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -398,11 +387,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block Variant (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -457,6 +441,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block Variant (3)
       objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719715, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
@@ -597,6 +586,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -695,6 +685,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -716,7 +707,8 @@ MonoBehaviour:
     (Hold) Space - Pick up
 
 
-    Goal - Find key bring to chest
+    Goal - Find key bring to
+    chest
 
 
     H - Open/Close help'
@@ -845,11 +837,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block Variant (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -905,6 +892,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block Variant (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff9c6aca82a69a044bb47e93a84d899c, type: 3}
 --- !u!1001 &593392295
@@ -914,11 +906,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block Variant (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -974,6 +961,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block Variant (6)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff9c6aca82a69a044bb47e93a84d899c, type: 3}
 --- !u!1001 &665029134
@@ -983,11 +975,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block Variant (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1042,6 +1029,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block Variant (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff9c6aca82a69a044bb47e93a84d899c, type: 3}
@@ -1104,6 +1096,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1181,6 +1174,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1316,6 +1310,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1503,6 +1498,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1556,11 +1552,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block Variant
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1615,6 +1606,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719715, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
@@ -1735,11 +1731,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block Variant (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1794,6 +1785,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block Variant (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719715, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
@@ -1861,6 +1857,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1933,11 +1930,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block Variant (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1992,6 +1984,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block Variant (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719715, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
@@ -2058,6 +2055,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2141,6 +2139,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2394,11 +2393,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1581846528165909517, guid: 957740d328ba1af4ca7a80099ac3b4c1,
+    - target: {fileID: 1581846528165909515, guid: 957740d328ba1af4ca7a80099ac3b4c1,
         type: 3}
-      propertyPath: m_Name
-      value: GameController
-      objectReference: {fileID: 0}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1439489922}
     - target: {fileID: 1581846528165909516, guid: 957740d328ba1af4ca7a80099ac3b4c1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2454,11 +2453,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1581846528165909515, guid: 957740d328ba1af4ca7a80099ac3b4c1,
+    - target: {fileID: 1581846528165909517, guid: 957740d328ba1af4ca7a80099ac3b4c1,
         type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 1439489922}
+      propertyPath: m_Name
+      value: GameController
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 957740d328ba1af4ca7a80099ac3b4c1, type: 3}
 --- !u!1001 &2366037005618107130
@@ -2468,11 +2467,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2366037003981502326, guid: 314a4e3e1fb4f1b418e611453be8983a,
-        type: 3}
-      propertyPath: m_Name
-      value: Floor
-      objectReference: {fileID: 0}
     - target: {fileID: 2366037003981502324, guid: 314a4e3e1fb4f1b418e611453be8983a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2528,6 +2522,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2366037003981502326, guid: 314a4e3e1fb4f1b418e611453be8983a,
+        type: 3}
+      propertyPath: m_Name
+      value: Floor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 314a4e3e1fb4f1b418e611453be8983a, type: 3}
 --- !u!1001 &4418607781187995510
@@ -2537,11 +2536,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2597,6 +2591,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff9c6aca82a69a044bb47e93a84d899c, type: 3}
 --- !u!1001 &8667289649327157487
@@ -2606,10 +2605,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8667289649736874967, guid: 27093fe69b5506542a95ff60553b7f5b,
+    - target: {fileID: 8667289649293068787, guid: 27093fe69b5506542a95ff60553b7f5b,
         type: 3}
-      propertyPath: m_Name
-      value: Dog
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8667289649736874963, guid: 27093fe69b5506542a95ff60553b7f5b,
+        type: 3}
+      propertyPath: Book_Key
+      value: 
+      objectReference: {fileID: 2083347110}
+    - target: {fileID: 8667289649736874963, guid: 27093fe69b5506542a95ff60553b7f5b,
+        type: 3}
+      propertyPath: book
+      value: 
+      objectReference: {fileID: 277841694}
+    - target: {fileID: 8667289649736874963, guid: 27093fe69b5506542a95ff60553b7f5b,
+        type: 3}
+      propertyPath: jumpCoolDown
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 8667289649736874965, guid: 27093fe69b5506542a95ff60553b7f5b,
         type: 3}
@@ -2666,25 +2680,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8667289649736874963, guid: 27093fe69b5506542a95ff60553b7f5b,
+    - target: {fileID: 8667289649736874967, guid: 27093fe69b5506542a95ff60553b7f5b,
         type: 3}
-      propertyPath: Book_Key
-      value: 
-      objectReference: {fileID: 2083347110}
-    - target: {fileID: 8667289649736874963, guid: 27093fe69b5506542a95ff60553b7f5b,
-        type: 3}
-      propertyPath: book
-      value: 
-      objectReference: {fileID: 277841694}
-    - target: {fileID: 8667289649736874963, guid: 27093fe69b5506542a95ff60553b7f5b,
-        type: 3}
-      propertyPath: jumpCoolDown
-      value: 0.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 8667289649293068787, guid: 27093fe69b5506542a95ff60553b7f5b,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
+      propertyPath: m_Name
+      value: Dog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27093fe69b5506542a95ff60553b7f5b, type: 3}

@@ -107,7 +107,7 @@ public class DogController : MonoBehaviour
             Destroy(book);
         }
 
-        if (collision.gameObject.name == "portal2")
+        if (collision.gameObject.name == "portal3")
         {
             SceneManager.LoadScene("Floor2");
         }

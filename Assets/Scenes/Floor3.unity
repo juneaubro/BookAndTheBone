@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -165,6 +166,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -285,6 +287,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -361,11 +364,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block Variant (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -421,6 +419,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block Variant (2)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff9c6aca82a69a044bb47e93a84d899c, type: 3}
 --- !u!1001 &263107333
@@ -430,11 +433,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block Variant (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -490,6 +488,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block Variant (3)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff9c6aca82a69a044bb47e93a84d899c, type: 3}
 --- !u!1 &366175164
@@ -537,6 +540,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -714,6 +718,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -811,6 +816,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -853,11 +859,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block Variant (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -913,6 +914,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block Variant (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff9c6aca82a69a044bb47e93a84d899c, type: 3}
 --- !u!1 &688193688
@@ -946,6 +952,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -968,7 +975,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1464983859
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 2122871858143088506, guid: 3ec863b40467a234e9455f0f387a660f,
     type: 3}
@@ -1041,6 +1048,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1121,11 +1129,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block Variant
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1181,6 +1184,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block Variant
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff9c6aca82a69a044bb47e93a84d899c, type: 3}
 --- !u!1001 &826453744
@@ -1190,14 +1198,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8237000320366505941, guid: 07f17ba34993bab4ba094210fcde10f8,
+    - target: {fileID: 2198635367790670747, guid: 07f17ba34993bab4ba094210fcde10f8,
         type: 3}
-      propertyPath: m_Name
-      value: portal
-      objectReference: {fileID: 0}
-    - target: {fileID: 8237000320366505941, guid: 07f17ba34993bab4ba094210fcde10f8,
-        type: 3}
-      propertyPath: m_IsActive
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8237000320366505938, guid: 07f17ba34993bab4ba094210fcde10f8,
@@ -1255,9 +1258,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2198635367790670747, guid: 07f17ba34993bab4ba094210fcde10f8,
+    - target: {fileID: 8237000320366505941, guid: 07f17ba34993bab4ba094210fcde10f8,
         type: 3}
-      propertyPath: m_IsTrigger
+      propertyPath: m_Name
+      value: portal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237000320366505941, guid: 07f17ba34993bab4ba094210fcde10f8,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1313,6 +1321,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1393,6 +1402,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1544,6 +1554,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1705,6 +1716,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1727,7 +1739,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1464983859
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ff8b212fa8162544daacd9160e29eec7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1812,6 +1824,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1834,7 +1847,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1464983859
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -942062581173016830, guid: c3997eaa30dc51e4faa83ad6a58431bd,
     type: 3}
@@ -1907,6 +1920,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1979,10 +1993,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8667289649736874967, guid: 27093fe69b5506542a95ff60553b7f5b,
+    - target: {fileID: 8667289649293068787, guid: 27093fe69b5506542a95ff60553b7f5b,
         type: 3}
-      propertyPath: m_Name
-      value: Dog
+      propertyPath: m_LocalScale.x
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8667289649736874965, guid: 27093fe69b5506542a95ff60553b7f5b,
         type: 3}
@@ -2039,10 +2053,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8667289649293068787, guid: 27093fe69b5506542a95ff60553b7f5b,
+    - target: {fileID: 8667289649736874967, guid: 27093fe69b5506542a95ff60553b7f5b,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: -1
+      propertyPath: m_Name
+      value: Dog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27093fe69b5506542a95ff60553b7f5b, type: 3}
@@ -2196,6 +2210,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2276,6 +2291,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2342,6 +2358,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2364,7 +2381,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1464983859
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 2122871858143088506, guid: 3ec863b40467a234e9455f0f387a660f,
     type: 3}
@@ -2423,6 +2440,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2445,7 +2463,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 303676853
-  m_SortingLayer: -1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6307f09838b2f464fa04418463f89bb8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2466,7 +2484,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765566404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.009, y: -0.02, z: 0}
+  m_LocalPosition: {x: 0.009, y: -0.02, z: 1}
   m_LocalScale: {x: 2.792, y: 3.1648, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2517,6 +2535,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2645,6 +2664,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2667,7 +2687,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1464983859
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ff8b212fa8162544daacd9160e29eec7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2752,6 +2772,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2774,7 +2795,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1464983859
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -942062581173016830, guid: c3997eaa30dc51e4faa83ad6a58431bd,
     type: 3}
@@ -2854,6 +2875,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2889,11 +2911,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
-        type: 3}
-      propertyPath: m_Name
-      value: Grass Block Variant (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 5900423050972719712, guid: ff9c6aca82a69a044bb47e93a84d899c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2949,6 +2966,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5900423050972719714, guid: ff9c6aca82a69a044bb47e93a84d899c,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass Block Variant (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff9c6aca82a69a044bb47e93a84d899c, type: 3}
 --- !u!1001 &4803657844317436250
@@ -2966,6 +2988,16 @@ PrefabInstance:
     - target: {fileID: 4803657843168298121, guid: 2c90a623e1bf28b4caf82c50c731212d,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803657843168298124, guid: 2c90a623e1bf28b4caf82c50c731212d,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803657843168298126, guid: 2c90a623e1bf28b4caf82c50c731212d,
+        type: 3}
+      propertyPath: m_MaskInteraction
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4803657843168298127, guid: 2c90a623e1bf28b4caf82c50c731212d,
@@ -3021,16 +3053,6 @@ PrefabInstance:
     - target: {fileID: 4803657843168298127, guid: 2c90a623e1bf28b4caf82c50c731212d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4803657843168298126, guid: 2c90a623e1bf28b4caf82c50c731212d,
-        type: 3}
-      propertyPath: m_MaskInteraction
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4803657843168298124, guid: 2c90a623e1bf28b4caf82c50c731212d,
-        type: 3}
-      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
